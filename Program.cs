@@ -33,7 +33,7 @@ namespace TestCSharp
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////:/
 /////////////////////////////////////////////////////////////////////////////////////////////////
-*/
+
 
 using System;
 using CSharpDiscovery.Quest01;
@@ -47,6 +47,21 @@ namespace TestCSharp
             Console.WriteLine(IsOdd_Exercice.IsOdd(2));
             Console.WriteLine(IsOdd_Exercice.IsOdd(11));
             Console.WriteLine(IsOdd_Exercice.IsOdd(30));
+        }
+    }
+}
+*/
+
+using System;
+using CSharpDiscovery.Quest01;
+
+namespace TestCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(CSharpDiscovery.Quest01.SetPiValue_Exercice.SetPiValue(0));
         }
     }
 }
