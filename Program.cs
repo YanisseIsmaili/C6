@@ -200,7 +200,7 @@ namespace TestCSharp
         }
     }
 }
-*/
+
 
 using System;
 using CSharpDiscovery.Quest02;
@@ -215,6 +215,20 @@ namespace TestCSharp
             var end = new DateTime(2021, 02, 01, 18, 0, 0, 0);
             Console.WriteLine(DifferenceInMinutes_Exercice.DifferenceInMinutes(start, end));
 
+        }
+    }
+}
+*/
+using System;
+using CSharpDiscovery.Quest02;
+
+namespace TestCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(FromStringToDateTime_Exercice.FromStringToDateTime("21/12/2021 18:33"));
         }
     }
 }
