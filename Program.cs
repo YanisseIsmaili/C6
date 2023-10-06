@@ -168,7 +168,6 @@ namespace TestCSharp
         }
     }
 }
-*/
 
 using System;
 using CSharpDiscovery.Quest01;
@@ -183,6 +182,21 @@ namespace TestCSharp
             Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.Red));
             Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.Orange));
             Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.None));
+        }
+    }
+}
+*/
+
+using System;
+using CSharpDiscovery.Quest02;
+
+namespace TestCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(DisplayDateWithoutTime_Exercice.DisplayDateWithoutTime(new DateTime(2021, 1, 14)));
         }
     }
 }
