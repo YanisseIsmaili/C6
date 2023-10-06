@@ -232,7 +232,6 @@ namespace TestCSharp
         }
     }
 }
-*/
 
 using System;
 using CSharpDiscovery.Quest02;
@@ -247,6 +246,22 @@ namespace TestCSharp
             var tab2 = new int[5] { 50, 54, 85, 47, 2 };
             Console.WriteLine(ContainsThisValue_Exercice.ContainsThisValue(tab, 97));
             Console.WriteLine(ContainsThisValue_Exercice.ContainsThisValue(tab2, 51));
+        }
+    }
+}
+*/
+
+using System;
+using CSharpDiscovery.Quest02;
+
+namespace TestCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var array = new int[] { 3, 24, 13, 4, 40 };
+            Console.WriteLine(string.Join(", ", SortTable_Exercice.SortTable(array)));
         }
     }
 }
